@@ -16,5 +16,3 @@
 1. 用户对发布的 【帖子】评论后，用户的评论点赞，需要设计系统通知被点赞。
 
 ## 配置文件位于src/main/resources/application.properties
-## Postman:
-- https://api.postman.com/collections/37469485-ca94f9f4-cffb-4f9e-8e63-51a33e91e65d?access_key=PMAT-01J4JWSTP4CF17C1DXAWHGEDAP
