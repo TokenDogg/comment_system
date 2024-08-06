@@ -48,11 +48,13 @@ public interface CommentMapper {
     public int updateCommentLikes(Integer id);
 
     /**
-     * 按页查找帖子下的所有评论
+     * 按页查找帖子下的所有评论,按照点赞数量排列
      * @param post_id,limit,offset
      * @return 返回该页下的评论
      */
     public List<Comment> getAllCommentsSortByLikes(Integer post_id,int limit, int offset);
+
+    public List<Comment> getAllCommentsSortByDates(Integer post_id,int limit, int offset);
 
     /**
      * 查找父评论下的所有子评论

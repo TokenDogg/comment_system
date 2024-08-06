@@ -14,6 +14,8 @@ public class Comment {
 
     private List<Comment> child;
 
+    private String created_at;
+
     public Integer getNum_likes() {
         return num_likes;
     }
@@ -70,6 +72,14 @@ public class Comment {
         this.child = child;
     }
 
+    public String getCreated_at() {
+        return created_at;
+    }
+
+    public void setCreated_at(String created_at) {
+        this.created_at = created_at;
+    }
+
     @Override
     public String toString() {
         return "Comment{" +
@@ -79,6 +89,8 @@ public class Comment {
                 ", parent_comment_id=" + parent_comment_id +
                 ", content='" + content + '\'' +
                 ", num_likes=" + num_likes +
+                ", child=" + child +
+                ", created_at='" + created_at + '\'' +
                 '}';
     }
 }

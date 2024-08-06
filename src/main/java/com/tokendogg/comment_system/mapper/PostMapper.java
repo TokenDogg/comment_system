@@ -19,6 +19,7 @@ public interface PostMapper {
      */
     public int addNewPost(Post post);
 
+    public Post getPostById(Integer post_id);
 
 
 }

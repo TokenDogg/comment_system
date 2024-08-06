@@ -7,4 +7,9 @@
         VALUES (#{user_id},#{title},#{content})
     </insert>
 
+    <select id="getPostById" resultType="com.tokendogg.comment_system.entity.Post">
+        SELECT * FROM posts
+        WHERE post_id = #{post_id}
+    </select>
+
 </mapper>

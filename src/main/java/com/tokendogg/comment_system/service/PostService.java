@@ -20,6 +20,10 @@ public class PostService {
         return post;
     }
 
+    public Post getPostById(Integer post_id){
+        return postMapper.getPostById(post_id);
+    }
+
 
 
 
