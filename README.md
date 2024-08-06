@@ -16,3 +16,4 @@
 1. 用户对发布的 【帖子】评论后，用户的评论点赞，需要设计系统通知被点赞。
 
 ## 配置文件位于src/main/resources/application.properties
+
